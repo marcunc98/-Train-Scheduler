@@ -19,7 +19,7 @@ $("#add-NewTrain-btn").on("click", function (event) {
     var frequency = $("#Frequency-input").val().trim();
     var firstTrain = $("#FirsTrain-input").val().trim();
     
-    // Creates local "temporary" object for holding employee data
+    // Creates local "temporary" object for holding train data
     var newTrain = {
         name: trainName,
         goingTo: destination,
